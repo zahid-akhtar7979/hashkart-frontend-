@@ -1,0 +1,13 @@
+.course_container{
+  border: 10px solid rgb(253, 243, 243);
+  width: 80%;
+  height: 100px;
+  margin-top: 10px;
+  box-shadow: 2px 5px #fdf6f6;
+  align-items: center;
+  display: flex;
+  justify-content: space-around;
+}
+.tags{
+  margin-right: auto;
+}

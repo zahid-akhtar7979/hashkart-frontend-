@@ -1,0 +1,15 @@
+<p>course-list works!</p>
+<div *ngFor="let course of courses" class="course_container">
+
+  <div>
+    <h4>{{ course.name}}</h4>
+    <div class="tags">
+      <button type="button" class="btn btn-warning btn-sm" style='margin-right:16px'>Agular</button>
+      <button type="button" class="btn btn-warning btn-sm" style='margin-right:16px'>Spring Boot</button>
+      <button type="button" class="btn btn-warning btn-sm" style='margin-right:16px'>React</button>
+    </div>
+  </div>
+  <p>{{ course.author}}</p>
+  <h6>{{ course.discountedPercentage}}</h6>
+  <div> <button type="button" class="btn btn-info">Add to Cart</button></div>
+</div>
